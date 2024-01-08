@@ -68,7 +68,7 @@ textarea, input{
   border: none;
   padding: 10px;
   font-size: 16px;
-  color: white;
+  color: black;
 }
 
 .notes-form button {
@@ -83,4 +83,19 @@ textarea, input{
 .notes-form button:hover {
   background-color: rgb(105, 175, 198);
   cursor: pointer;
+}
+
+.edit-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+.edit-buttons button {
+  flex: 1;
+}
+
+.edit-buttons button:last-of-type{
+  background-color: rgb(220, 89, 89);
+  color: white;
 }
